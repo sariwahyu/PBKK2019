@@ -1,0 +1,15 @@
+package id.web.tjokroaminoto.app;
+
+public class Dermatologist implements Doctor {
+
+	public Dermatologist() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void getDailyClinic() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package id.web.moumantai.app;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MyApp {
+
+	public static void main(String[] args) {
+		//Create IoT Container
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("notationconfig.xml");
+		
+		// Get Bean
+		Coach coach = context.getBean("tenisCoach", Coach.class);
+		TenisCoach happy = context.getBean("tenisCoach", TenisCoach.class);
+		
+		System.out.println(coach.getDailyWorkOut());
+		System.out.println(happy.getFortuneService().getFortune());
+		
+		
+		context.close();
+
+	}
+
+}

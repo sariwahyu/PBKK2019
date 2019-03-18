@@ -1,0 +1,15 @@
+package id.web.tjokroaminoto.app;
+
+public class RandomHospital implements Hospital {
+
+	public RandomHospital() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String getHospitalService() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -72,8 +72,4 @@ public class Oncologist implements Doctor {
 		this.hospital = hospital;
 	}
 
-	
-	
-	
-
 }
