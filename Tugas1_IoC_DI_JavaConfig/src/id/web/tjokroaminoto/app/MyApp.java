@@ -1,18 +1,19 @@
 package id.web.tjokroaminoto.app;
 
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class MyApp {
 
 	public static void main(String[] args) {
-		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("notationconfig.xml");
 		
-		Doctor doctor = context.getBean("dermatologist", Doctor.class);
-		Dermatologist doct = context.getBean("dermatologist", Dermatologist.class);
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MedicalConfig.class);
 		
-		System.out.println(doctor.getDailyClinic());
-		System.out.println(doct.getHospital().getHospitalService());
-
+		Neurologist neuro = context.getBean("neurologist", Neurologist.class);
+		
+		System.out.println(neuro.getDailyClinic());
+		System.out.println(neuro.getName());
+		
+		context.close();
 	}
 
 }
