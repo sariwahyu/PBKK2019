@@ -6,10 +6,10 @@ public class Neurologist implements Doctor {
 	
 	private Hospital hospital;
 
-	@Value("${test.iddoc}")
+	@Value("${foo.iddoc}")
 	private String iddoc;
 	
-	@Value("${test.name}")
+	@Value("${foo.name}")
 	private String name;
 	
 	public Neurologist() {
