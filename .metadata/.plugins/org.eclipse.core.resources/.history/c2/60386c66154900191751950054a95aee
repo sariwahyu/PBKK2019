@@ -1,0 +1,15 @@
+package id.web.tjokroaminoto.app;
+
+public class Neurologist implements Doctor {
+
+	public Neurologist() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String getDailyClinic() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

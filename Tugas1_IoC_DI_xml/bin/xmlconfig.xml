@@ -15,7 +15,7 @@
     
     <bean id="myDoctor" class="id.web.tjokroaminoto.app.Oncologist">
     <!-- Dependency -->
-    	<constructor-arg ref="myHospital"></constructor-arg>
+    	<!--<constructor-arg ref="myHospital"></constructor-arg>-->
     	<property name="iddoc" value="${test.iddoc}"></property>
     	<property name="name" value="${test.name}"></property>
     <!-- Setter Injection -->
