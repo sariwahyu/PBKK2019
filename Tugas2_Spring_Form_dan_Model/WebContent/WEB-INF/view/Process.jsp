@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<link href="<c:url value="/resources/css/bootstrap.css" />" rel="stylesheet">
     <script src="<c:url value="/resources/js/jquery.1.10.2.min.js" />"></script>
@@ -13,7 +13,7 @@
 </head>
 <body>
 	<h2>Submitted Doctor Information</h2>
-	<table>
+	<table class="table table-striped table-bordered">
 		<tr>
 			<td>ID</td>
 			<td>${iddoc}</td>

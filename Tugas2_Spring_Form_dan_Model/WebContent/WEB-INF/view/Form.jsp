@@ -12,29 +12,31 @@
 <title>Hello Form</title>
 </head>
 <body>
-	<h3>Welcome, Enter The Oncologist's Doctor Details</h3>
-	<form:form action="processForm" method="POST" modelAttribute="oncologist">
-		<table>
-	    	<tr>
-	        	<td><form:label path="iddoc">ID</form:label></td>
-	            <td><form:input path="iddoc" class="form-control"/></td>
-	        </tr>
-	        <tr>
-	        	<td><form:label path="name">Name</form:label></td>
-	            <td><form:input path="name" class="form-control"/></td>
-	        </tr>
-	        <tr>
-	        	<td><form:label path="address">Address</form:label></td>
-				<td><form:input path="address" class="form-control"/></td>
-			</tr>
-			<tr>
-				<td><form:label path="email">E-mail</form:label></td>
-				<td><form:input path="email" class="form-control"/></td>
-			</tr>
-			<tr>
-				<td><input type="submit" class="btn btn-primary" class="form-control" value="Submit"/></td>
-			</tr>
-		</table>
-	</form:form>
+	<div class="container">
+		<h3>Welcome, Enter The Oncologist's Doctor Details</h3>
+		<form:form action="processForm" method="POST" modelAttribute="oncologist">
+			<table>
+		    	<tr>
+		        	<td><form:label path="iddoc">ID</form:label></td>
+		            <td><form:input path="iddoc" class="form-control"/></td>
+		        </tr>
+		        <tr>
+		        	<td><form:label path="name">Name</form:label></td>
+		            <td><form:input path="name" class="form-control"/></td>
+		        </tr>
+		        <tr>
+		        	<td><form:label path="address">Address</form:label></td>
+					<td><form:input path="address" class="form-control"/></td>
+				</tr>
+				<tr>
+					<td><form:label path="email">E-mail</form:label></td>
+					<td><form:input path="email" class="form-control"/></td>
+				</tr>
+				<tr>
+					<td><input type="submit" class="btn btn-primary" class="form-control" value="Submit"/></td>
+				</tr>
+			</table>
+		</form:form>
+	</div>
 </body>
 </html>
