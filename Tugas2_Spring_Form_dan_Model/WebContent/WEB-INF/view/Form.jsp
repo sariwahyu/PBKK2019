@@ -9,11 +9,11 @@
     <script src="<c:url value="/resources/js/jquery.1.10.2.min.js" />"></script>
     <script src="<c:url value="/resources/js/main.js" />"></script>
 <meta charset="ISO-8859-1">
-<title>Hello Form</title>
+<title>Form Oncologist</title>
 </head>
 <body>
 	<div class="container">
-		<h1>Welcome, Enter The Oncologist's Doctor Details</h3>
+		<h1>Welcome, Enter The Oncologist's Doctor Details</h1>
 		<form:form action="processForm" method="POST" modelAttribute="oncologist">
 			<table>
 		    	<tr>
@@ -33,7 +33,7 @@
 					<td><form:input path="email" class="form-control"/></td>
 				</tr>
 				<tr>
-					<td><input type="submit" class="btn btn-primary" class="form-control" value="Submit"/></td>
+					<td><input type="submit" class="btn btn-default" class="form-control" value="Submit"/></td>
 				</tr>
 			</table>
 		</form:form>

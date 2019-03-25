@@ -9,12 +9,13 @@
     <script src="<c:url value="/resources/js/jquery.1.10.2.min.js" />"></script>
     <script src="<c:url value="/resources/js/main.js" />"></script>
 <meta charset="ISO-8859-1">
-<title>Display</title>
+<title>Display Profile</title>
 </head>
 <body>
-	<h1>Submitted Doctor Information</h2>
-	<div class="form-group col-md-6">
-	<table class="table table-striped table-bordered table-hover">
+<div class="container">
+	<h1>Submitted Doctor Information</h1>
+	<div class="form-group col-md-8">
+	<table class="table table-bordered table-hover">
 		<tr>
 			<td>ID</td>
 			<td>${iddoc}</td>
@@ -33,6 +34,6 @@
 		</tr>
 	</table>
 	</div>
-
+</div>
 </body>
 </html>
