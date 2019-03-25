@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Form</title>
 </head>
 <body>
 
 	<h3>Welcome, Enter The Oncologist's Doctor Details</h3>
-	<form:form action="/enteroncologist" method="get">
+	<form:form action="Tugas2_Spring_Form_dan_Model/showFrom" modelAttribute="oncologist" method="POST">
 		<table>
 			<tr>
 				<td><form:label path="iddoc">ID</form:label>
@@ -27,8 +27,10 @@
 				<td><form:label path="email">Email</form:label>
 				<td><input type="text" name="Email"></input>
 			</tr>
+			<tr>
+				<td> <input type="submit" name="Submit"></input> </td>
+			</tr>
 		</table>
-		<input type="submit" name="Submit"></input> 
 	</form:form>
 	
 </body>
