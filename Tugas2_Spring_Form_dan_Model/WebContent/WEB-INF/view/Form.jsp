@@ -13,7 +13,7 @@
 </head>
 <body>
 	<div class="container">
-		<h3>Welcome, Enter The Oncologist's Doctor Details</h3>
+		<h1>Welcome, Enter The Oncologist's Doctor Details</h3>
 		<form:form action="processForm" method="POST" modelAttribute="oncologist">
 			<table>
 		    	<tr>

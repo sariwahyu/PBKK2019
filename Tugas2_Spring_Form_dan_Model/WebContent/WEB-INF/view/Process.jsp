@@ -12,8 +12,9 @@
 <title>Display</title>
 </head>
 <body>
-	<h2>Submitted Doctor Information</h2>
-	<table class="table table-striped table-bordered">
+	<h1>Submitted Doctor Information</h2>
+	<div class="form-group col-md-6">
+	<table class="table table-striped table-bordered table-hover">
 		<tr>
 			<td>ID</td>
 			<td>${iddoc}</td>
@@ -31,6 +32,7 @@
 			<td>${email}</td>
 		</tr>
 	</table>
+	</div>
 
 </body>
 </html>
