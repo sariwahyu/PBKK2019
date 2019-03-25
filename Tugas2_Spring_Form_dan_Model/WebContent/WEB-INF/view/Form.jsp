@@ -7,7 +7,6 @@
 <title>Form</title>
 </head>
 <body>
-
 	<h3>Welcome, Enter The Oncologist's Doctor Details</h3>
 	<form:form action="Tugas2_Spring_Form_dan_Model/showFrom" modelAttribute="oncologist" method="POST">
 		<table>
