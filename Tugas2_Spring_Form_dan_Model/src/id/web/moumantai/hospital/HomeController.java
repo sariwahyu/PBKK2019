@@ -1,5 +1,7 @@
 package id.web.moumantai.hospital;
 
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.request;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -13,6 +15,7 @@ public class HomeController {
 	
 	@RequestMapping("/processForm")
 	public String processForm() {
+		String theName = request.getParameter()
 		return "Process";
 	}
 

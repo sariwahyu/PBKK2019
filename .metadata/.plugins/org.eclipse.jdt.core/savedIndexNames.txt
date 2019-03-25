@@ -26,6 +26,7 @@ INDEX VERSION 1.131+D:\[BAMS]\sekolah\kuliah\PBKK2019\.metadata\.plugins\org.ecl
 2273995298.index
 3962817062.index
 1025033602.index
+3912817478.index
 2311259359.index
 3500492014.index
 701042321.index
@@ -35,7 +36,6 @@ INDEX VERSION 1.131+D:\[BAMS]\sekolah\kuliah\PBKK2019\.metadata\.plugins\org.ecl
 3694447592.index
 4087900053.index
 4120327699.index
-4206786336.index
 1154630176.index
 506859885.index
 715284836.index
