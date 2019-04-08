@@ -2,6 +2,7 @@
     <wb-module deploy-name="Tugas2_Spring_Form_dan_Model">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent/WEB-INF/lib"/>
         <property name="context-root" value="Tugas2_Spring_Form_dan_Model"/>
         <property name="java-output-path" value="/Tugas2_Spring_Form_dan_Model/build/classes"/>
     </wb-module>

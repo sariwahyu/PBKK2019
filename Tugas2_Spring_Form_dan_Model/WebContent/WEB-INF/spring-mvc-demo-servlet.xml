@@ -12,7 +12,7 @@
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 	<!-- Step 3: Add support for component scanning -->
-	<context:component-scan base-package="id.web.moumantai.hospital" />
+	<context:component-scan base-package="id.web.moaumantai.hospital" />
 
 	<!-- Step 4: Add support for conversion, formatting and validation support -->
 	<mvc:annotation-driven/>
@@ -24,5 +24,6 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 
-		<mvc:resources mapping="/resources/**" location="/WEB-INF/resources/theme1/" />
+	<mvc:resources mapping="/resources/**" location="/resources/theme1/"  
+	cache-period="31556926"/>
 </beans>

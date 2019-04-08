@@ -22,15 +22,31 @@
 		</tr>
 		<tr>
 			<td>Name</td>
-			<td>${name}</td>
+			<td>${oncologist.name}</td>
 		</tr>
 		<tr>
 			<td>Address</td>
-			<td>${address}</td>
+			<td>${oncologist.address}</td>
 		</tr>
 		<tr>
 			<td>Email</td>
-			<td>${email}</td>
+			<td>${oncologist.email}</td>
+		</tr>
+		<tr>
+			<td>Status</td>
+			<td>${oncologist.status}</td>
+		</tr>
+		<tr>
+			<td>Spesialisasi</td>
+			<td>${oncologist.spesialisasi}</td>
+		</tr>
+		<tr>
+			<td>Jadwal Praktek</td>
+			<td>
+				<c:forEach var="temp" items="${oncologist.jawalPraktek}">
+				<li>${temp}</li>
+				</c:forEach>
+			</td>
 		</tr>
 	</table>
 	</div>

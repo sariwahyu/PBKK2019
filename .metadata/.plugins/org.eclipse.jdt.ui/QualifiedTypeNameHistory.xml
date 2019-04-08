@@ -12,4 +12,12 @@
 <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
 <fullyQualifiedTypeName name="id.web.tjokroaminoto.app.MedicalConfig"/>
 <fullyQualifiedTypeName name="id.web.tjokroaminoto.app.Neurologist"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+<fullyQualifiedTypeName name="org.springframework.validation.annotation.Validated"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
+<fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
+<fullyQualifiedTypeName name="org.springframework.ui.ModelMap"/>
+<fullyQualifiedTypeName name="javax.validation.constraints.Email"/>
+<fullyQualifiedTypeName name="javax.xml.ws.soap.Addressing"/>
 </qualifiedTypeNameHistroy>

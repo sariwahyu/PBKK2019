@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\[BAMS]\sekolah\kuliah\workspace-spring-tool-suite-4-4.1.1.RELEASE\Hello2_MVC"/>
+		<item value="D:\[BAMS]\sekolah\kuliah\workspace-spring-tool-suite-4-4.1.1.RELEASE\spring-css"/>
 		<item value="D:\[BAMS]\sekolah\kuliah\workspace-spring-tool-suite-4-4.1.1.RELEASE\hello-springmvc"/>
 		<item value="D:\[BAMS]\sekolah\kuliah\workspace-spring-tool-suite-4-4.1.1.RELEASE"/>
 		<item value="D:\[BAMS]\sekolah\kuliah\PBKK2019"/>
