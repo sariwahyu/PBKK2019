@@ -7,7 +7,7 @@
 <title>Index Page</title>
 </head>
 <body>
-	<h2>Index page</h2>
+	<h2>INdex page</h2>
 	<a href="oncologist/showForm">Oncologist Form</a>
 
 </body>
